@@ -1,6 +1,6 @@
 Name:           qrencode
 Version:        3.4.1
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Generate QR 2D barcodes
 Summary(fr):    Génère les code-barres en 2D QR
 
@@ -87,6 +87,12 @@ sh test_all.sh
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.4.1-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.4.1-2
+- Mass rebuild 2013-12-27
+
 * Fri Jan 25 2013 Matthieu Saulnier <fantom@fedoraproject.org> - 3.4.1-1
 - Update to 3.4.1
 
